@@ -152,7 +152,7 @@
   }
   
   .transaction-product-card {
-    @include flex(row, unset, center, 1rem);
+    @include flex(row, unset, center, 7rem);
   
     > img {
       @include square(4rem);
