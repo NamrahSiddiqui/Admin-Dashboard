@@ -57,15 +57,15 @@ const AdminSidebar = () => {
         { url: "/admin/chart/pie", text: "Pie", Icon: FaChartPie },
         { url: "/admin/chart/line", text: "Line", Icon: FaChartLine },
       ],
-    },
-    {
-      title: "Apps",
-      items: [
-        { url: "/admin/app/stopwatch", text: "Stopwatch", Icon: FaStopwatch },
-        { url: "/admin/app/coupon", text: "Coupon", Icon: RiCoupon3Fill },
-        { url: "/admin/app/toss", text: "Toss", Icon: FaGamepad },
-      ],
-    },
+    }
+    // {
+    //   title: "Apps",
+    //   items: [
+    //     { url: "/admin/app/stopwatch", text: "Stopwatch", Icon: FaStopwatch },
+    //     { url: "/admin/app/coupon", text: "Coupon", Icon: RiCoupon3Fill },
+    //     { url: "/admin/app/toss", text: "Toss", Icon: FaGamepad },
+    //   ],
+    // },
   ];
 
   return (
